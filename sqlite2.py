@@ -57,9 +57,11 @@ with open('cars2.csv', 'r+', newline='') as csvfile:
     for row in cars2:   
         dynamic_data_entry(row)
 
+        
+'''
 #DELETE Columns "enginf_hyb integer" and "idn_yer integer" 
 #from cars2 table
-'''
+
 ALTER TABLE cars2
 DROP COLUMNS enginf_hyb;idn_yer; 
 '''
